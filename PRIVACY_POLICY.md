@@ -1,6 +1,6 @@
 # Privacy Policy
 
-**Last updated: January 28, 2026**
+**Last updated: June 7, 2026**
 
 ## Introduction
 
@@ -18,57 +18,73 @@ MiauLog allows you to track your cats' health and activities. The following data
 - **Activity Logs:** Records of activities such as eating, vomiting, medication, litter box usage, sleep, play, and notes
 - **Preferences:** Your chosen weight unit (kg/lb) and time format (12-hour/24-hour)
 
+Your personal cat data stays on your device and is never transmitted to us or anyone else.
+
 ### Automatically Collected Data
 
-**Crash Reports:** We use Firebase Crashlytics to collect crash reports and error logs. This helps us identify and fix bugs to improve the App. Crashlytics may collect:
+To keep the App stable and understand how it is used, two Google (Firebase) services collect limited, **anonymous** technical data. Neither of them collects your cat profiles, photos, activity logs, or any content you enter.
+
+**Crash Reports (Firebase Crashlytics):** Helps us identify and fix bugs. May collect:
 
 - Device type and operating system version
 - App version
 - Crash logs and stack traces
 - General diagnostic information
 
-Crashlytics does **not** collect your personal cat data, photos, or activity logs.
+**Usage Analytics (Firebase Analytics):** Helps us understand which features are used and how the App performs, so we can improve it. This is **anonymous** — it is not tied to your name or account (the App has no accounts) and contains none of your cat data. It may collect:
+
+- Anonymous app-usage events (for example: completing onboarding, logging an activity, viewing the subscription screen, and the outcome of a purchase attempt)
+- App and device information (app version, device model, operating system version, language)
+- Anonymous identifiers (a Firebase app-instance ID and, on Android, the device Advertising ID)
+- Approximate (coarse) location derived from your IP address — used only to understand the general region of our users; we do **not** collect precise location
+
+We do **not** use analytics for advertising, and we do **not** sell or rent this data.
 
 ## How Your Data is Stored
 
 ### Local Storage
 
-All your personal data (cat profiles, activity logs, photos, and preferences) is stored **exclusively on your device** using:
+All of your personal data (cat profiles, activity logs, photos, and preferences) is stored **exclusively on your device** using:
 
 - SQLite database for structured data
 - Local file system for photos
 - SharedPreferences for app settings
 
-**Your data never leaves your device.** We do not have servers that store or sync your data. We cannot access, view, or retrieve your personal information.
+**Your personal cat data never leaves your device.** We do not have servers that store or sync it. We cannot access, view, or retrieve your personal cat information. The only data that leaves your device is the anonymous crash and usage data described above, which is processed by Firebase (Google).
 
 ### No Cloud Sync
 
 MiauLog does not offer cloud synchronization. This means:
 
-- Your data is private and stays on your device
-- If you uninstall the App or change devices, your data will not be transferred automatically
-- We have no access to your data
+- Your cat data is private and stays on your device
+- If you uninstall the App or change devices, your cat data will not be transferred automatically
+- We have no access to your cat data
 
 ## How We Use Your Information
 
 - **Local data:** Used solely to provide the App's functionality on your device
 - **Crash reports:** Used to identify bugs and improve App stability
+- **Usage analytics:** Used in aggregate to understand feature usage and improve the App
 
 We do **not**:
 
-- Sell your data to third parties
-- Use your data for advertising
-- Share your personal information with anyone
-- Track your location
-- Collect analytics about your usage patterns
+- Sell or rent your data to third parties
+- Use your data for advertising or ad targeting
+- Share your personal cat data with anyone
+- Collect precise location
+- Tie analytics or crash data to your identity (the App has no user accounts)
 
 ## Third-Party Services
 
 ### Firebase Crashlytics
 
-We use Firebase Crashlytics, a service provided by Google, to collect crash reports. Crashlytics operates under Google's Privacy Policy. For more information, visit: [Google Privacy Policy](https://policies.google.com/privacy)
+We use Firebase Crashlytics, a service provided by Google, to collect crash reports. Crashlytics data collection is limited to technical information necessary for crash analysis and does not include your personal cat data or activity logs.
 
-Crashlytics data collection is limited to technical information necessary for crash analysis and does not include your personal cat data or activity logs.
+### Firebase Analytics
+
+We use Firebase Analytics (Google Analytics for Firebase), a service provided by Google, to collect anonymous usage analytics. It does not include your personal cat data or activity logs.
+
+Both services operate under Google's Privacy Policy. For more information, visit: [Google Privacy Policy](https://policies.google.com/privacy). Data sent to these services is encrypted in transit.
 
 ## Data Retention
 
@@ -80,13 +96,17 @@ Your data remains on your device until you choose to delete it. You can delete a
 
 Crash reports are retained by Firebase Crashlytics according to Google's data retention policies, typically for 90 days.
 
+### Usage Analytics
+
+Analytics data is retained by Firebase Analytics according to Google's data retention settings (by default, event-level data is retained for up to 14 months, after which it is automatically deleted).
+
 ## Your Rights
 
 You have the following rights regarding your data:
 
-- **Access:** All your data is stored locally on your device and accessible through the App
-- **Deletion:** You can delete all data at any time via Settings > Delete All Data
-- **Portability:** Since data is stored locally, you have full control over it on your device
+- **Access:** All of your personal data is stored locally on your device and accessible through the App
+- **Deletion:** You can delete all local data at any time via Settings > Delete All Data. You can reset or limit the anonymous Advertising ID used by analytics through your device's system settings (Settings > Privacy > Ads)
+- **Portability:** Since your personal data is stored locally, you have full control over it on your device
 
 ## Children's Privacy
 
@@ -96,8 +116,9 @@ MiauLog does not knowingly collect personal information from children under 13. 
 
 We take reasonable measures to protect your data:
 
-- All data is stored locally on your device
-- We do not transmit your personal data over the internet
+- All of your personal data is stored locally on your device
+- We do not transmit your personal cat data over the internet
+- Anonymous crash and usage data is encrypted in transit to Firebase
 - Photos are compressed and stored in the App's private directory
 
 However, please note that the local database is not encrypted. We recommend using your device's built-in security features (screen lock, encryption) to protect your data.
@@ -120,13 +141,14 @@ If you have any questions about this Privacy Policy or the App's data practices,
 
 | Aspect | Details |
 |--------|---------|
-| Data Storage | Local only (on your device) |
+| Data Storage | Cat data: local only (on your device) |
 | Cloud Sync | None |
-| Data Sharing | None (except crash reports to Firebase) |
-| Analytics | None |
+| Personal Cat Data Sharing | None |
+| Crash Reporting | Firebase Crashlytics (anonymous technical data) |
+| Analytics | Firebase Analytics (anonymous usage data) |
 | Advertising | None |
 | User Accounts | None required |
-| Data Deletion | Available in Settings |
+| Data Deletion | Local data: available in Settings |
 
 ---
 
